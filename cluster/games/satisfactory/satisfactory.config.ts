@@ -1,6 +1,6 @@
 export const SatisfactoryConfig = {
   // Meta configuration
-  prefix: "GameCluster",
+  prefix: "Satisfactory",
 
   // Game configuration
   game: {
@@ -27,7 +27,7 @@ export const SatisfactoryConfig = {
 
   // Network configuration
   securityGroup: {
-    description: "Allow SatisfactoryGameServerInstanceRole connect to server (ARM64)",
+    description: "Allow SatisfactoryGameServerInstanceRole connect to server.",
     ports: {
       game: {
         port: 7777,
@@ -50,7 +50,7 @@ export const SatisfactoryConfig = {
 
   // Save bucket configuration
   saveBucket: {
-    name: "", // Leave empty to create a new bucket
+    name: "", // Leave empty to create a new bucket (initially)
     allowPublicAccess: false
   },
 
